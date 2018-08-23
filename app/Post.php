@@ -9,6 +9,7 @@ class Post extends Model
 {
   use Searchable;
 
+  
   protected $fillable = [
       'title', 'content', 'published'
   ];
